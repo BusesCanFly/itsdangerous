@@ -4,5 +4,5 @@ target: fuzz-itsdangerous
 image: ghcr.io/busescanfly/itsdangerous:latest
 
 cmds:
-  - cmd: /src/busescanfly/fuzz-itsdangerous.py
+  - cmd: /src/mayhem/busescanfly/fuzz-itsdangerous.py
     libfuzzer: true
